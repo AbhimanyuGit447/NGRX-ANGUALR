@@ -31,7 +31,7 @@ app.route('/api/course/:id').delete(deleteCourse);
 
 app.route('/api/courses/:courseUrl').get(getCourseByUrl);
 
-app.route('/api/lessons').get(searchLessons);
+app.route('/api/courses/lessons').get(searchLessons);
 
 
 
